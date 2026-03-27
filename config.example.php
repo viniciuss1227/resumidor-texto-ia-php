@@ -1,0 +1,2 @@
+<?php
+$APY_TOKEN = 'COLOQUE_SEU_TOKEN_AQUI';

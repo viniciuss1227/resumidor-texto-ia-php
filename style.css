@@ -1,0 +1,136 @@
+/* --- Estilos Gerais (Paleta Profissional) --- */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #112736; /* Fundo azul-marinho, igual ao da imagem */
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.container {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #ffffff; /* Container branco, como na imagem */
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.07);
+}
+
+h1 {
+    text-align: center;
+    color: #0d2f51; /* Azul-marinho principal (do botão da imagem) */
+    margin-top: 0;
+}
+
+p.descricao {
+    text-align: center;
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+/* --- Estilos do Formulário --- */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+textarea {
+    width: 100%;
+    min-height: 150px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1em;
+    font-family: inherit;
+    box-sizing: border-box;
+    resize: vertical;
+    margin-bottom: 15px;
+}
+
+/* Foco do textarea agora usa o azul-marinho */
+textarea:focus {
+    border-color: #0d2f51;
+    outline: none;
+    box-shadow: 0 0 5px rgba(13, 47, 81, 0.3); /* Sombra azul */
+}
+
+/* Botão principal com o azul-marinho */
+button[type="submit"] {
+    background: #0d2f51; /* Cor primária azul-marinho */
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    border: none;
+    padding: 14px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+}
+
+/* Efeito do botão com um azul mais claro */
+button[type="submit"]:hover {
+    background-color: #174a7a; /* Um tom de azul mais claro para o hover */
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(13, 47, 81, 0.4); /* Sombra com tom azulado */
+}
+
+/* --- Estilos para "Resumo Gerado" (Tons de Azul) --- */
+.resultado-principal {
+    background-color: #e6f0fa; /* Fundo azul bem claro */
+    border: 1px solid #b3d1f0; /* Borda azul clara */
+    border-radius: 8px;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+.resultado-principal h3 {
+    color: #0d2f51; /* Título em azul-marinho */
+    margin-top: 0;
+    border-bottom: 2px solid #b3d1f0; /* Linha azul clara */
+    padding-bottom: 10px;
+}
+
+.resultado-principal p {
+    font-size: 1.1em;
+    line-height: 1.7;
+    white-space: pre-wrap; 
+}
+
+/* --- Estilos para "Histórico Recente" (Neutro) --- */
+/* Este estilo já era neutro e profissional, então combinou perfeitamente */
+.resultado {
+    margin-top: 30px;
+}
+
+.resultado h3 {
+    color: #333;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+.resultado p {
+    background-color: #f9f9f9;
+    border: 1px solid #eee;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.resultado p strong {
+    color: #555;
+    display: inline-block;
+    min-width: 65px;
+}
+
+.resultado hr {
+    display: none;
+}
